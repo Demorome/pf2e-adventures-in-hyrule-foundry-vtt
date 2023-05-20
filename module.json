@@ -1,0 +1,154 @@
+{
+  "id": "pf2e-adventures-in-hyrule",
+  "title": "Adventures in Hyrule",
+  "description": "A Zelda campaign resource module for Pathfinder Second Edition by Aoife Ester and Vorthas.",
+  "url": "https://github.com/ExampleRepo/PF2e-Example",
+  "version": "1.0",
+  "authors": [
+    {"name": "Aoife"},
+    {"name": "Vorthas"}
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "flags": {
+    "pf2e-adventures-in-hyrule": {
+      "pf2e-homebrew": {
+        "languages": {
+		"ancient-hylian": "Ancient Hylian",
+		"blin": "Blin",
+		"deku": "Deku",
+		"demonic": "Demonic",
+		"fairy": "Fairy",
+		"gerudo": "Gerudo",
+		"goron": "Goron",
+		"hylian": "Hylian",
+		"lizal": "Lizal",
+		"lynel": "Lynel",
+		"minish": "Minish",
+		"oocca": "Oocca",
+		"stal": "Stal",
+		"sheikah": "Sheikah",
+		"yeti": "Yeti",
+		"zoran": "Zoran",
+		"zonai": "Zonai"
+	   },
+	   "creatureTraits": {
+		"blin": "Blin",
+		"deku-scrub": "Deku Scrub",
+		"fairy": "Fairy",
+		"gerudo": "Gerudo",
+		"goron": "Goron",
+		"hylian": "Hylian",
+		"kokiri": "Kokiri",
+		"korok": "Korok",
+		"lizal": "Lizal",
+		"minish": "Minish",
+		"rito": "Rito",
+		"sheikah": "Sheikah",
+		"twili": "Twili",
+		"zora": "Zora",
+		"shadow-being": "Shadow Being"
+	   },
+	   "featTraits": {
+		"blin": "Blin",
+		"deku-scrub": "Deku Scrub",
+		"fairy": "Fairy",
+		"gerudo": "Gerudo",
+		"goron": "Goron",
+		"hylian": "Hylian",
+		"kokiri": "Kokiri",
+		"korok": "Korok",
+		"lizal": "Lizal",
+		"minish": "Minish",
+		"rito": "Rito",
+		"sheikah": "Sheikah",
+		"twili": "Twili",
+		"zora": "Zora",
+		"shadow-being": "Shadow Being"
+	   },
+	   "equipmentTraits": {
+		"ancient": { 
+			"label": "Ancient",
+			"description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
+		},
+		"aerodynamic": {
+			"label": "Aerodynamic",
+			"description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You don’t apply the armor’s check penalty to Acrobatics or Athletics checks while flying or falling."
+		},
+		"fireproof": {
+			"label": "Fireproof",
+			"description": "This armor is made of fireproof materials or feature a design that limits the spread of flame. While wearing this armor, the flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 with appropriate assistance."
+		},
+		"goron": "Goron",
+		"hylian": "Hylian",
+		"lynel": "Lynel",
+		"lizal": "Lizal",
+		"rito": "Rito",
+		"zora": "Zora"
+	   },
+	   "weaponTraits": {
+	   	"ancient": { 
+			"label": "Ancient",
+			"description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
+		},
+		"goron": "Goron",
+		"hylian": "Hylian",
+		"lizal": "Lizal",
+		"sheikah": "Sheikah",
+		"tail": {
+			"label": "Tail",
+			"description": "A weapon with this trait is attached to your tail instead of held in your hands. You can only use a weapon with the tail trait if you have a tail, and you can only have one such weapon attached at any time, even if you have multiple tails. You must use an Interact action while holding a tail weapon to to attach it to your tail, and they can be Disarmed as normal."
+		},
+		"zora": "Zora"
+	   },
+	   "spellTraits": {
+	   	"champion": { 
+			"label": "Champion",
+			"description": "These spells represent the power of a particular ancestry's champion, and can only be learned through ancestry feats."
+		}
+	   }
+      }
+    }
+  },
+  "packs": [
+    {
+      "label": "Adventures in Hyrule - Feats",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-feats",
+      "path": "./packs/pf2e-adventures-in-hyrule-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Ancestries",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-ancestries",
+      "path": "./packs/pf2e-adventures-in-hyrule-ancestries.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Heritages",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-heritages",
+      "path": "./packs/pf2e-adventures-in-hyrule-heritages.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    }
+  ]
+}
