@@ -149,6 +149,15 @@
       "system": "pf2e",
       "package": "pf2e-adventures-in-hyrule",
       "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Effects",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-effects",
+      "path": "./packs/pf2e-adventures-in-hyrule-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
     }
   ]
 }
