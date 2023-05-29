@@ -133,6 +133,15 @@
       "private": false
     },
     {
+      "label": "Adventures in Hyrule - Features",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-features",
+      "path": "./packs/pf2e-adventures-in-hyrule-features.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
       "label": "Adventures in Hyrule - Ancestries",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-ancestries",
@@ -155,6 +164,33 @@
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-effects",
       "path": "./packs/pf2e-adventures-in-hyrule-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Equipments",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-equipments",
+      "path": "./packs/pf2e-adventures-in-hyrule-equipments.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },    
+    {
+      "label": "Adventures in Hyrule - Spells",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-spells",
+      "path": "./packs/pf2e-adventures-in-hyrule-spells.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Companions & Familiars",
+      "type": "Actor",
+      "name": "pf2e-adventures-in-hyrule-companions-familiars",
+      "path": "./packs/pf2e-adventures-in-hyrule-companions-familiars.db",
       "system": "pf2e",
       "package": "pf2e-adventures-in-hyrule",
       "private": false
