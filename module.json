@@ -1,12 +1,11 @@
 {
   "id": "pf2e-adventures-in-hyrule",
   "title": "Adventures in Hyrule",
-  "description": "A Zelda campaign resource module for Pathfinder Second Edition by Aoife Ester and Vorthas.",
+  "description": "A Zelda campaign resource module for Pathfinder Second Edition written by Aoife Ester.",
   "url": "https://github.com/Demorome/pf2e-adventures-in-hyrule",
   "version": "1.0",
   "authors": [
-    {"name": "Aoife"},
-    {"name": "Vorthas"}
+    {"name": "Aoife"}
   ],
   "compatibility": {
     "minimum": "10.285",
@@ -25,6 +24,10 @@
   "flags": {
     "pf2e-adventures-in-hyrule": {
       "pf2e-homebrew": {
+	   "baseWeapons": {
+		"fangs": "Fangs",
+		"horn": "Horn"
+	   },
         "languages": {
 		"ancient-hylian": "Ancient Hylian",
 		"blin": "Blin",
@@ -59,6 +62,8 @@
 		"sheikah": "Sheikah",
 		"twili": "Twili",
 		"zora": "Zora",
+		"zonai": "Zonai",
+		"zonai-construct": "Zonai Construct",
 		"shadow-being": "Shadow Being"
 	   },
 	   "featTraits": {
@@ -76,6 +81,7 @@
 		"sheikah": "Sheikah",
 		"twili": "Twili",
 		"zora": "Zora",
+		"zonai-construct": "Zonai Construct",
 		"shadow-being": "Shadow Being"
 	   },
 	   "equipmentTraits": {
@@ -169,10 +175,10 @@
       "private": false
     },
     {
-      "label": "Adventures in Hyrule - Equipments",
+      "label": "Adventures in Hyrule - Equipment",
       "type": "Item",
-      "name": "pf2e-adventures-in-hyrule-equipments",
-      "path": "./packs/pf2e-adventures-in-hyrule-equipments.db",
+      "name": "pf2e-adventures-in-hyrule-equipment",
+      "path": "./packs/pf2e-adventures-in-hyrule-equipment.db",
       "system": "pf2e",
       "package": "pf2e-adventures-in-hyrule",
       "private": false
@@ -191,6 +197,24 @@
       "type": "Actor",
       "name": "pf2e-adventures-in-hyrule-companions-familiars",
       "path": "./packs/pf2e-adventures-in-hyrule-companions-familiars.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Deities",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-deities",
+      "path": "./packs/pf2e-adventures-in-hyrule-deities.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Backgrounds",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-backgrounds",
+      "path": "./packs/pf2e-adventures-in-hyrule-backgrounds.db",
       "system": "pf2e",
       "package": "pf2e-adventures-in-hyrule",
       "private": false
