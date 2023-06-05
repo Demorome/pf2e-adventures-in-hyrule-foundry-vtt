@@ -220,6 +220,24 @@
       "system": "pf2e",
       "package": "pf2e-adventures-in-hyrule",
       "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Actions",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-actions",
+      "path": "./packs/pf2e-adventures-in-hyrule-actions.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
+    },
+    {
+      "label": "Adventures in Hyrule - Journals",
+      "type": "JournalEntry",
+	 "name": "pf2e-adventures-in-hyrule-journals",
+      "path": "./packs/pf2e-adventures-in-hyrule-journals.db",
+      "system": "pf2e",
+      "package": "pf2e-adventures-in-hyrule",
+      "private": false
     }
   ]
 }
