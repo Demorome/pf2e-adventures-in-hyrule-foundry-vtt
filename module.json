@@ -7,126 +7,139 @@
   "download": "https://github.com/demorome/pf2e-adventures-in-hyrule-foundry-vtt/archive/refs/heads/main.zip",
   "version": "1.0",
   "authors": [
-    {"name": "Aoife"}
+    {
+      "name": "Aoife",
+      "flags": {}
+    }
   ],
   "compatibility": {
     "minimum": "10.285",
     "verified": "10.285"
   },
   "relationships": {
-    "systems": [{
-      "id": "pf2e",
-      "type": "system",
-      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-      "compatibility": {
-        "minimum": "4.0.6"
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "4.0.6"
+        }
       }
-    }]
+    ],
+    "requires": [
+      {
+        "id": "pf2e-animal-companions",
+        "type": "module",
+        "url": "https://github.com/TikaelSol/PF2e-Animal-Companions",
+        "compatibility": {}
+      }
+    ]
   },
   "flags": {
     "pf2e-adventures-in-hyrule": {
       "pf2e-homebrew": {
-	   "baseWeapons": {
-		"fangs": "Fangs",
-		"horn": "Horn"
-	   },
+        "baseWeapons": {
+          "fangs": "Fangs",
+          "horn": "Horn"
+        },
         "languages": {
-		"ancient-hylian": "Ancient Hylian",
-		"blin": "Blin",
-		"deku": "Deku",
-		"demonic": "Demonic",
-		"fairy": "Fairy",
-		"gerudo": "Gerudo",
-		"goron": "Goron",
-		"hylian": "Hylian",
-		"lizal": "Lizal",
-		"lynel": "Lynel",
-		"minish": "Minish",
-		"oocca": "Oocca",
-		"stal": "Stal",
-		"sheikah": "Sheikah",
-		"yeti": "Yeti",
-		"zoran": "Zoran",
-		"zonai": "Zonai"
-	   },
-	   "creatureTraits": {
-		"blin": "Blin",
-		"deku-scrub": "Deku Scrub",
-		"fairy": "Fairy",
-		"gerudo": "Gerudo",
-		"goron": "Goron",
-		"hylian": "Hylian",
-		"kokiri": "Kokiri",
-		"korok": "Korok",
-		"lizal": "Lizal",
-		"minish": "Minish",
-		"rito": "Rito",
-		"sheikah": "Sheikah",
-		"twili": "Twili",
-		"zora": "Zora",
-		"zonai": "Zonai",
-		"zonai-construct": "Zonai Construct",
-		"shadow-being": "Shadow Being"
-	   },
-	   "featTraits": {
-		"blin": "Blin",
-		"deku-scrub": "Deku Scrub",
-		"fairy": "Fairy",
-		"gerudo": "Gerudo",
-		"goron": "Goron",
-		"hylian": "Hylian",
-		"kokiri": "Kokiri",
-		"korok": "Korok",
-		"lizal": "Lizal",
-		"minish": "Minish",
-		"rito": "Rito",
-		"sheikah": "Sheikah",
-		"twili": "Twili",
-		"zora": "Zora",
-		"zonai-construct": "Zonai Construct",
-		"shadow-being": "Shadow Being"
-	   },
-	   "equipmentTraits": {
-		"ancient": { 
-			"label": "Ancient",
-			"description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
-		},
-		"aerodynamic": {
-			"label": "Aerodynamic",
-			"description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You don’t apply the armor’s check penalty to Acrobatics or Athletics checks while flying or falling."
-		},
-		"fireproof": {
-			"label": "Fireproof",
-			"description": "This armor is made of fireproof materials or feature a design that limits the spread of flame. While wearing this armor, the flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 with appropriate assistance."
-		},
-		"goron": "Goron",
-		"hylian": "Hylian",
-		"lynel": "Lynel",
-		"lizal": "Lizal",
-		"rito": "Rito",
-		"zora": "Zora"
-	   },
-	   "weaponTraits": {
-	   	"ancient": { 
-			"label": "Ancient",
-			"description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
-		},
-		"goron": "Goron",
-		"hylian": "Hylian",
-		"lizal": "Lizal",
-		"sheikah": "Sheikah",
-		"tail": {
-			"label": "Tail",
-			"description": "A weapon with this trait is attached to your tail instead of held in your hands. You can only use a weapon with the tail trait if you have a tail, and you can only have one such weapon attached at any time, even if you have multiple tails. You must use an Interact action while holding a tail weapon to to attach it to your tail, and they can be Disarmed as normal."
-		},
-		"zora": "Zora"
-	   },
-	   "spellTraits": {
-	   	"champion": { 
-			"label": "Champion",
-			"description": "These spells represent the power of a particular ancestry's champion, and can only be learned through ancestry feats."
-		}
-	   }
+          "ancient-hylian": "Ancient Hylian",
+          "blin": "Blin",
+          "deku": "Deku",
+          "demonic": "Demonic",
+          "fairy": "Fairy",
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "lizal": "Lizal",
+          "lynel": "Lynel",
+          "minish": "Minish",
+          "oocca": "Oocca",
+          "stal": "Stal",
+          "sheikah": "Sheikah",
+          "yeti": "Yeti",
+          "zoran": "Zoran",
+          "zonai": "Zonai"
+        },
+        "creatureTraits": {
+          "blin": "Blin",
+          "deku-scrub": "Deku Scrub",
+          "fairy": "Fairy",
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "kokiri": "Kokiri",
+          "korok": "Korok",
+          "lizal": "Lizal",
+          "minish": "Minish",
+          "rito": "Rito",
+          "sheikah": "Sheikah",
+          "twili": "Twili",
+          "zora": "Zora",
+          "zonai": "Zonai",
+          "zonai-construct": "Zonai Construct",
+          "shadow-being": "Shadow Being"
+        },
+        "featTraits": {
+          "blin": "Blin",
+          "deku-scrub": "Deku Scrub",
+          "fairy": "Fairy",
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "kokiri": "Kokiri",
+          "korok": "Korok",
+          "lizal": "Lizal",
+          "minish": "Minish",
+          "rito": "Rito",
+          "sheikah": "Sheikah",
+          "twili": "Twili",
+          "zora": "Zora",
+          "zonai-construct": "Zonai Construct",
+          "shadow-being": "Shadow Being"
+        },
+        "equipmentTraits": {
+          "ancient": {
+            "label": "Ancient",
+            "description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
+          },
+          "aerodynamic": {
+            "label": "Aerodynamic",
+            "description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You don’t apply the armor’s check penalty to Acrobatics or Athletics checks while flying or falling."
+          },
+          "fireproof": {
+            "label": "Fireproof",
+            "description": "This armor is made of fireproof materials or feature a design that limits the spread of flame. While wearing this armor, the flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 with appropriate assistance."
+          },
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "lynel": "Lynel",
+          "lizal": "Lizal",
+          "rito": "Rito",
+          "zora": "Zora"
+        },
+        "weaponTraits": {
+          "ancient": {
+            "label": "Ancient",
+            "description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
+          },
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "lizal": "Lizal",
+          "sheikah": "Sheikah",
+          "tail": {
+            "label": "Tail",
+            "description": "A weapon with this trait is attached to your tail instead of held in your hands. You can only use a weapon with the tail trait if you have a tail, and you can only have one such weapon attached at any time, even if you have multiple tails. You must use an Interact action while holding a tail weapon to to attach it to your tail, and they can be Disarmed as normal."
+          },
+          "zora": "Zora"
+        },
+        "spellTraits": {
+          "champion": {
+            "label": "Champion",
+            "description": "These spells represent the power of a particular ancestry's champion, and can only be learned through ancestry feats."
+          }
+        }
       }
     }
   },
@@ -135,109 +148,118 @@
       "label": "Adventures in Hyrule - Feats",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-feats",
-      "path": "./packs/pf2e-adventures-in-hyrule-feats.db",
+      "path": "packs/pf2e-adventures-in-hyrule-feats.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Features",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-features",
-      "path": "./packs/pf2e-adventures-in-hyrule-features.db",
+      "path": "packs/pf2e-adventures-in-hyrule-features.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Ancestries",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-ancestries",
-      "path": "./packs/pf2e-adventures-in-hyrule-ancestries.db",
+      "path": "packs/pf2e-adventures-in-hyrule-ancestries.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Heritages",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-heritages",
-      "path": "./packs/pf2e-adventures-in-hyrule-heritages.db",
+      "path": "packs/pf2e-adventures-in-hyrule-heritages.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Effects",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-effects",
-      "path": "./packs/pf2e-adventures-in-hyrule-effects.db",
+      "path": "packs/pf2e-adventures-in-hyrule-effects.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Equipment",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-equipment",
-      "path": "./packs/pf2e-adventures-in-hyrule-equipment.db",
+      "path": "packs/pf2e-adventures-in-hyrule-equipment.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
-    },    
+      "private": false,
+      "flags": {}
+    },
     {
       "label": "Adventures in Hyrule - Spells",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-spells",
-      "path": "./packs/pf2e-adventures-in-hyrule-spells.db",
+      "path": "packs/pf2e-adventures-in-hyrule-spells.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
-      "label": "Adventures in Hyrule - Companions & Familiars",
-      "type": "Actor",
-      "name": "pf2e-adventures-in-hyrule-companions-familiars",
-      "path": "./packs/pf2e-adventures-in-hyrule-companions-familiars.db",
+      "label": "Adventures in Hyrule - Companions",
+      "type": "Item",
+      "name": "pf2e-adventures-in-hyrule-companions",
+      "path": "packs/pf2e-adventures-in-hyrule-companions.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Adventures in Hyrule - Familiars",
+      "type": "Actor",
+      "name": "pf2e-adventures-in-hyrule-familiars",
+      "path": "packs/pf2e-adventures-in-hyrule-familiars.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Deities",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-deities",
-      "path": "./packs/pf2e-adventures-in-hyrule-deities.db",
+      "path": "packs/pf2e-adventures-in-hyrule-deities.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Backgrounds",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-backgrounds",
-      "path": "./packs/pf2e-adventures-in-hyrule-backgrounds.db",
+      "path": "packs/pf2e-adventures-in-hyrule-backgrounds.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Actions",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-actions",
-      "path": "./packs/pf2e-adventures-in-hyrule-actions.db",
+      "path": "packs/pf2e-adventures-in-hyrule-actions.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Adventures in Hyrule - Journals",
       "type": "JournalEntry",
-	 "name": "pf2e-adventures-in-hyrule-journals",
-      "path": "./packs/pf2e-adventures-in-hyrule-journals.db",
+      "name": "pf2e-adventures-in-hyrule-journals",
+      "path": "packs/pf2e-adventures-in-hyrule-journals.db",
       "system": "pf2e",
-      "package": "pf2e-adventures-in-hyrule",
-      "private": false
+      "private": false,
+      "flags": {}
     }
   ]
 }
