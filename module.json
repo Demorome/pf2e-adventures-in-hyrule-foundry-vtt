@@ -41,7 +41,31 @@
       "pf2e-homebrew": {
         "baseWeapons": {
           "fangs": "Fangs",
-          "horn": "Horn"
+          "horn": "Horn",
+		"cutlass": "Cutlass",
+		"demoncarver": "Demoncarver",
+		"deku-nut": "Deku Nut",
+		"ember-seed": "Ember Seed",
+		"greatshovel": "Greatshovel",
+		"heavy-gauntlet": "Heavy Gauntlet",
+		"serpentine-spear": "Serpentine Spear",
+		"scent-seed": "Scent Seed",
+		"spear-parasol": "Spear Parasol",
+		"tail-mace": "Tail Mace",
+		"war-bell": "War Bell",
+		"wrecker-sword": "Wrecker Sword",
+		"ball-and-chain": "Ball and Chain",
+		"boomerang-blade": "Boomerang Blade",
+		"drillshaft": "Drillshaft",
+		"giant-boomerang": "Giant Boomerang",
+		"scalespear": "Scalespear",
+		"tail-axe": "Tail Axe",
+		"slingshot": "Slingshot",
+		"scattershot": "Scattershot",
+		"hookshot": "Hookshot",
+		"gripshot": "Gripshot",
+		"longshot": "Longshot",
+		"clawshot": "Clawshot"
         },
         "languages": {
           "ancient-hylian": "Ancient Hylian",
@@ -108,16 +132,22 @@
             "label": "Aerodynamic",
             "description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You don’t apply the armor’s check penalty to Acrobatics or Athletics checks while flying or falling."
           },
-          "fireproof": {
+          "entrench-spell": {
+            "label": "Entrench Spell",
+            "description": "You can position yourself in the armor or reposition its articulated pieces to better protect against some attacks. If you're trained in this armor, while wearing it you can spend a single action to gain a +1 circumstance bonus to AC against a certain type of attack until the start of your next turn. The entrench trait lists the type of attack this bonus applies against, typically entrench melee or entrench ranged."
+          },
+		"fireproof": {
             "label": "Fireproof",
             "description": "This armor is made of fireproof materials or feature a design that limits the spread of flame. While wearing this armor, the flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 with appropriate assistance."
           },
           "goron": "Goron",
           "hylian": "Hylian",
+		"kokori": "Kokiri",
           "lynel": "Lynel",
           "lizal": "Lizal",
           "rito": "Rito",
-          "zora": "Zora"
+		"sheikah": "Sheikah",
+		"zora": "Zora"
         },
         "weaponTraits": {
           "ancient": {
@@ -257,6 +287,15 @@
       "type": "JournalEntry",
       "name": "pf2e-adventures-in-hyrule-journals",
       "path": "packs/pf2e-adventures-in-hyrule-journals.db",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Adventures in Hyrule - Vehicles",
+      "type": "Actor",
+      "name": "pf2e-adventures-in-hyrule-vehicles",
+      "path": "packs/pf2e-adventures-in-hyrule-vehicles.db",
       "system": "pf2e",
       "private": false,
       "flags": {}
