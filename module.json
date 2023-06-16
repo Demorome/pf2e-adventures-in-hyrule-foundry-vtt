@@ -14,7 +14,7 @@
   ],
   "compatibility": {
     "minimum": "10.285",
-    "verified": "10.285"
+    "verified": "10.291"
   },
   "relationships": {
     "systems": [
@@ -23,7 +23,7 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "4.0.6"
+          "minimum": "4.12.5"
         }
       }
     ],
