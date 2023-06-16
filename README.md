@@ -4,7 +4,9 @@
  Currently includes everything as of v1.01 of the homebrew.
  
 # Requirements
- For parts of the animal companion feats to work properly, the PF2e Animal Companion module is required: https://github.com/TikaelSol/PF2e-Animal-Companions
+- PF2e system version 4.12.5 or greater required.
+- Tested on Foundry version 10.291; no idea if it'll work for V11 yet.
+- For parts of the animal companion feats to work properly, the PF2e Animal Companion module is required: https://github.com/TikaelSol/PF2e-Animal-Companions
  
  # Installation
  - In Foundry VTT, click "Install Module" and at the bottom of the pop-up, input this Manifest URL: https://raw.githubusercontent.com/Demorome/pf2e-adventures-in-hyrule-foundry-vtt/main/module.json 
