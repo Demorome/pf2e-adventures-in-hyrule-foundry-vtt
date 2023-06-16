@@ -21,4 +21,4 @@ If you need some direct help with the module, you may contact me on Discord: _Us
 Anyone is welcome to make a Pull Request for suggested changes.
 
 # Todo
-- The module is missing custom icons for... everything. If anyone feels like contributing in this regard, it would be pretty neat.
+- The module is missing custom icons for... everything. If anyone feels like contributing in this regard, it would be pretty neat, though it would have to be images you have the rights over.
