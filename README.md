@@ -1,7 +1,7 @@
 # Adventures in Hyrule - Foundry VTT Module Implementation
  A module implementation for Aoife's Adventures in Hyrule homebrew: https://scribe.pf2.tools/v/wXO8Df9X-adventures-in-hyrule
  
- Currently includes everything as of v1.01 of the homebrew.
+ Currently includes everything as of v1.02 of the homebrew.
  
 # Requirements
 - PF2e system version 4.12.5 or greater required.
