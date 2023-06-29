@@ -5,7 +5,7 @@
  
 # Requirements
 - PF2e system version 4.12.5 or greater required.
-- Tested on Foundry version 10.291; no idea if it'll work for V11 yet.
+- Now updated for Foundry V11! V10 may still work, but it isn't actively supported.
 - For parts of the animal companion feats to work properly, the PF2e Animal Companion module is required: https://github.com/TikaelSol/PF2e-Animal-Companions
  
  # Installation
