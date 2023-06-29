@@ -5,16 +5,16 @@
   "url": "https://github.com/Demorome/pf2e-adventures-in-hyrule",
   "manifest": "https://raw.githubusercontent.com/Demorome/pf2e-adventures-in-hyrule-foundry-vtt/main/module.json",
   "download": "https://github.com/demorome/pf2e-adventures-in-hyrule-foundry-vtt/archive/refs/heads/main.zip",
-  "version": "1.0",
+  "version": "1.02",
   "authors": [
     {
-      "name": "Aoife",
+      "name": "Aoife Ester",
       "flags": {}
     }
   ],
   "compatibility": {
     "minimum": "10.285",
-    "verified": "10.291"
+    "verified": "11.302"
   },
   "relationships": {
     "systems": [
@@ -118,6 +118,7 @@
           "minish": "Minish",
           "rito": "Rito",
           "sheikah": "Sheikah",
+		"skull-kid": "Skull Kid",
           "twili": "Twili",
           "zora": "Zora",
           "zonai-construct": "Zonai Construct",
@@ -175,130 +176,210 @@
   },
   "packs": [
     {
-      "label": "Adventures in Hyrule - Feats",
+      "label": "Feats",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-feats",
       "path": "packs/pf2e-adventures-in-hyrule-feats.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Features",
+      "label": "Features",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-features",
       "path": "packs/pf2e-adventures-in-hyrule-features.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Ancestries",
+      "label": "Ancestries",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-ancestries",
       "path": "packs/pf2e-adventures-in-hyrule-ancestries.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Heritages",
+      "label": "Heritages",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-heritages",
       "path": "packs/pf2e-adventures-in-hyrule-heritages.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Effects",
+      "label": "Effects",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-effects",
       "path": "packs/pf2e-adventures-in-hyrule-effects.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Equipment",
+      "label": "Equipment",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-equipment",
       "path": "packs/pf2e-adventures-in-hyrule-equipment.db",
       "system": "pf2e",
       "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Spells",
+      "label": "Spells",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-spells",
       "path": "packs/pf2e-adventures-in-hyrule-spells.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Companions",
+      "label": "Companions",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-companions",
       "path": "packs/pf2e-adventures-in-hyrule-companions.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Familiars",
+      "label": "Familiars",
       "type": "Actor",
       "name": "pf2e-adventures-in-hyrule-familiars",
       "path": "packs/pf2e-adventures-in-hyrule-familiars.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Deities",
+      "label": "Deities",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-deities",
       "path": "packs/pf2e-adventures-in-hyrule-deities.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Backgrounds",
+      "label": "Backgrounds",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-backgrounds",
       "path": "packs/pf2e-adventures-in-hyrule-backgrounds.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Actions",
+      "label": "Actions",
       "type": "Item",
       "name": "pf2e-adventures-in-hyrule-actions",
       "path": "packs/pf2e-adventures-in-hyrule-actions.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Journals",
+      "label": "Journals",
       "type": "JournalEntry",
       "name": "pf2e-adventures-in-hyrule-journals",
       "path": "packs/pf2e-adventures-in-hyrule-journals.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Adventures in Hyrule - Vehicles",
+      "label": "Vehicles",
       "type": "Actor",
       "name": "pf2e-adventures-in-hyrule-vehicles",
       "path": "packs/pf2e-adventures-in-hyrule-vehicles.db",
       "system": "pf2e",
-      "private": false,
-      "flags": {}
+	 "package": "pf2e-adventures-in-hyrule",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": 
+  [
+    {
+      "name": "Adventures in Hyrule",
+      "sorting": "a",
+      "packs": [
+        "pf2e-adventures-in-hyrule-feats",
+        "pf2e-adventures-in-hyrule-features",
+        "pf2e-adventures-in-hyrule-ancestries",
+        "pf2e-adventures-in-hyrule-heritages",
+        "pf2e-adventures-in-hyrule-effects",
+        "pf2e-adventures-in-hyrule-equipment",
+        "pf2e-adventures-in-hyrule-spells",
+        "pf2e-adventures-in-hyrule-companions",
+        "pf2e-adventures-in-hyrule-familiars",
+        "pf2e-adventures-in-hyrule-deities",
+        "pf2e-adventures-in-hyrule-backgrounds",
+        "pf2e-adventures-in-hyrule-actions",
+        "pf2e-adventures-in-hyrule-journals",
+        "pf2e-adventures-in-hyrule-vehicles"
+      ]
     }
   ]
 }
