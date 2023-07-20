@@ -103,7 +103,8 @@
           "zora": "Zora",
           "zonai": "Zonai",
           "zonai-construct": "Zonai Construct",
-          "shadow-being": "Shadow Being"
+          "shadow-being": "Shadow Being",
+		"skull-kid": "Skull Kid"
         },
         "featTraits": {
           "blin": "Blin",
@@ -122,7 +123,8 @@
           "twili": "Twili",
           "zora": "Zora",
           "zonai-construct": "Zonai Construct",
-          "shadow-being": "Shadow Being"
+          "shadow-being": "Shadow Being",
+		"skull-kid": "Skull Kid"
         },
         "equipmentTraits": {
           "ancient": {
