@@ -5,7 +5,7 @@
   "url": "https://github.com/Demorome/pf2e-adventures-in-hyrule",
   "manifest": "https://raw.githubusercontent.com/Demorome/pf2e-adventures-in-hyrule-foundry-vtt/main/module.json",
   "download": "https://github.com/demorome/pf2e-adventures-in-hyrule-foundry-vtt/archive/refs/heads/main.zip",
-  "version": "1.02",
+  "version": "1.03",
   "authors": [
     {
       "name": "Aoife Ester",
