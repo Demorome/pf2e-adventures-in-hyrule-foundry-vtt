@@ -1,11 +1,11 @@
 # Adventures in Hyrule - Foundry VTT Module Implementation
  A module implementation for Aoife's Adventures in Hyrule homebrew: https://scribe.pf2.tools/v/wXO8Df9X-adventures-in-hyrule
  
- Currently includes everything as of v1.02 of the homebrew.
+ Currently includes everything as of v1.03 of the homebrew.
  
 # Requirements
 - PF2e system version 4.12.5 or greater required.
-- Now updated for Foundry V11! V10 may still work, but it isn't actively supported.
+- Updated for Foundry V11; V10 is no longer supported due to the database changes.
 - For parts of the animal companion feats to work properly, the PF2e Animal Companion module is required: https://github.com/TikaelSol/PF2e-Animal-Companions
  
  # Installation
