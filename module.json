@@ -13,8 +13,8 @@
     }
   ],
   "compatibility": {
-    "minimum": "10.285",
-    "verified": "11.302"
+    "minimum": "11.302",
+    "verified": "11.305"
   },
   "relationships": {
     "systems": [
