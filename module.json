@@ -5,7 +5,7 @@
   "url": "https://github.com/Demorome/pf2e-adventures-in-hyrule",
   "manifest": "https://raw.githubusercontent.com/Demorome/pf2e-adventures-in-hyrule-foundry-vtt/main/module.json",
   "download": "https://github.com/demorome/pf2e-adventures-in-hyrule-foundry-vtt/archive/refs/heads/main.zip",
-  "version": "1.03",
+  "version": "1.04",
   "authors": [
     {
       "name": "Aoife Ester",
@@ -14,7 +14,7 @@
   ],
   "compatibility": {
     "minimum": "11.302",
-    "verified": "11.305"
+    "verified": "11.309"
   },
   "relationships": {
     "systems": [
@@ -84,7 +84,8 @@
           "sheikah": "Sheikah",
           "yeti": "Yeti",
           "zoran": "Zoran",
-          "zonai": "Zonai"
+          "zonai": "Zonai",
+		"mogma": "Mogma"
         },
         "creatureTraits": {
           "blin": "Blin",
@@ -104,7 +105,9 @@
           "zonai": "Zonai",
           "zonai-construct": "Zonai Construct",
           "shadow-being": "Shadow Being",
-		"skull-kid": "Skull Kid"
+		"skull-kid": "Skull Kid",
+		"mogma": "Mogma",
+		"garo": "Garo"
         },
         "featTraits": {
           "blin": "Blin",
@@ -124,7 +127,8 @@
           "zora": "Zora",
           "zonai-construct": "Zonai Construct",
           "shadow-being": "Shadow Being",
-		"skull-kid": "Skull Kid"
+		"skull-kid": "Skull Kid",
+		"mogma": "Mogma"
         },
         "equipmentTraits": {
           "ancient": {
